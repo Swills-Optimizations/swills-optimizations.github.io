@@ -1,0 +1,244 @@
+<!doctype html>
+
+<html>
+    <head>
+        <link rel="icon" href="src/LOGO.png" type="image/x-icon">
+        <meta charset="utf-8">
+
+        <title>Swills</title>
+
+        <!-- Load external CSS styles -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <!-- Homepage -->
+    <body class="example">
+        <!-- Navigation -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="packages.html"><img class="img-fluid" style="width: 35px; height: auto;" src="src/PACKAGES.png">Packages</a>
+            <a href="faq.html"><img class="img-fluid" style="width: 35px; height: auto;" src="src/FAQ.png">FAQ</a>
+        </div>
+
+        <script>
+            function openNav()
+            {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+
+            function closeNav()
+            {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+
+        <!-- Banner -->
+        <div class="image-container">
+            <img class="image-shadow" src="src/BANNER.png" alt="Banner">
+
+            <div class="text-container">
+                <span style="cursor:pointer;" onclick="openNav()">&#9776;</span>
+            </div>
+
+            <div class="text-container2">
+                <h9 class="h9">
+                    <a href="#scrollto" class="main">&nbsp;Get Started</a>
+                </h9>
+            </div>
+        </div>
+
+        <h5 class="main" id="scrollto" style="padding-left: 150px; padding-right: 150px;">"Unleashing hidden performance"</h5>
+
+        <!-- First Paragraph -->
+        <div class="row" style="padding-left: 150px; padding-right: 150px; padding-top: 50px;">
+            <div class="col-md-6 text-center align-self-center">
+                <h2>A competitive edge</h2>
+                <h3>Our optimization packages provide a smooth experience for users regardless of their system specifications, maximizing frame rates (FPS), lowering latency in all games / 3D applications. Aimed to provide the best experience for our customers so you can hit all your shots and dominate.</h3>
+                <h6>The optimizations have been tested on a variety of hardware enabling for reliable results. Statistics gathered from customer feedback</h6>
+            </div>
+
+            <div class="col-md-6 text-center align-self-center">
+                <video class="img-fluid";
+                       src="src/PERF_STATS.mp4" autoplay muted loop>
+                </video>
+            </div>
+        </div>
+
+        <h5 style="padding-left: 150px; padding-right: 150px;">"We only change settings that matter, no more unnecessary downloads"</h5>
+
+        <!-- Second Paragraph -->
+        <div class="row" style="padding-left: 150px; padding-right: 150px;">
+            <div class="col-md-6 text-center align-self-center">
+                <video class="img-fluid image-shadow image-scaling rounded";
+                       src="src/DESKTOP.mp4" autoplay muted loop>
+                </video>
+                <h4 style="padding-top: 20px;">Custom wallpaper and Rainmeter skin, desktop customized for user specific requests</h4>
+            </div>
+
+            <div class="col-md-6 text-center align-self-center">
+                <h2>A smooth experience</h2>
+                <h3>With our service, customers will also be able to enjoy an aesthetic desktop without negative performance effects. The visual desktop optimizations for aesthetic purposes include features such as creation of centralized taskbar, translucent taskbar, both without downloads required, custom Rainmeter skins provided by Swills, and much more.</h3>
+            </div>
+        </div>
+
+        <h5 style="padding-left: 150px; padding-right: 150px;">"Performance without visual sacrifice"</h5>
+
+        <!-- Third Paragraph -->
+        <div class="row" style="padding-left: 150px; padding-right: 150px;">
+            <div class="col-md-6 text-center align-self-center">
+                <h2>Game specific optimizations</h2>
+                <h3>We also offer game specific optimizations for a variety of competitive FPS games, such as Apex Legends, Fortnite, CS:GO, Valorant, and Minecraft. This procedure consists of going over in-game settings, in some cases custom .txt downloads which allow us to unlock otherwise not accessible graphical settings. We also offer additional command line arguments for some of the games listed above, for faster launch times, FPS boost, and lower latency.</h3>
+            </div>
+
+            <div class="col-md-6 text-center align-self-center">
+                <img class="img-fluid image-shadow image-scaling rounded" src="src/MC.png">
+                <h4 style="padding-top: 20px;">Optimizations in action, in Minecraft (i5-8300H, GTX 1050 4GB, Laptop, Optimus disabled)</h4>
+            </div>
+        </div>
+
+        <h5 style="padding-left: 150px; padding-right: 150px;">"System stability ensured"</h5>
+
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel" style="padding-left: 150px; padding-right: 150px;">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner image-shadow rounded">
+                <div class="carousel-item active">
+                    <img src="src/PERF_STATS_1.png" alt="Benchmarks" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h7 class="h9">
+                            <a href="packages.html">Apex Legends<br>Optimized</a>
+                        </h7>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="src/PERF_STATS_2.png" alt="Benchmarks" class="d-block" style="width:100%">
+                    <div class="carousel-caption2">
+                        <h7 class="h9">
+                            <a href="packages.html">Minecraft<br>Optimized</a>
+                        </h7>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="src/PERF_STATS_3.png" alt="Benchmarks" class="d-block" style="width:100%">
+                    <div class="carousel-caption3">
+                        <h7 class="h9">
+                            <a href="packages.html">Apex Legends<br>Optimized</a>
+                        </h7>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h5 style="padding-left: 150px; padding-right: 150px;">"Visual clearance and huge performance increases"</h5>
+
+        <!-- Fourth Paragraph -->
+        <div class="row" style="padding-left: 150px; padding-right: 150px;">
+            <div class="col-md-6 text-center align-self-center">
+                <img class="img-fluid image-shadow image-scaling rounded" src="src/OBS.png">
+                <h4 style="padding-top: 20px;">OBS customized to ensure stable recording and maximize performance</h4>
+            </div>
+
+            <div class="col-md-6 text-center align-self-center">
+                <h2>Recording / Render settings</h2>
+                <h3>The optimization pack also includes optimization of recording software (OBS), and editing software (DaVinci Resolve 18). The custom settings will provide astounding quality with minimal performance loss. The custom settings will ensure elimination of instability and stuttering. The settings will also be personalized to the specification of the user's computer system.</h3>
+            </div>
+        </div>
+
+        <h5 style="padding-left: 150px; padding-right: 150px;">Still unsure? A word from our partners...</h5>
+
+        <div style="padding-left: 150px; padding-right: 150px;" class="text-center align-self-center">
+            <iframe class="img-fluid image-shadow rounded"; style="width: 1280px; height: 720px;" src="https://www.youtube.com/embed/Ey6kfktyqw8"></iframe>
+        </div>
+
+        <!-- Partners -->
+        <div class="row" style="padding-top: 50px; padding-left: 150px; padding-right: 150px;">
+            <div class="col-md-4 text-center align-self-center">
+                <h2>Our Partners:</h2>
+            </div>
+
+            <div class="col-md-4 text-center align-self-center">
+                <h3 class="h9">
+                    <a href="https://www.youtube.com/@NineNineNineApex" target="_blank">999</a>
+                </h3>
+            </div>
+
+            <div class="col-md-4 text-center align-self-center">
+                <h3 class="h9">
+                    <a href="https://www.youtube.com/@hroo3592" target="_blank">Hero</a>
+                </h3>
+            </div>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="row" style="padding-top: 50px; padding-bottom: 50px; padding-left: 150px; padding-right: 150px;">
+            <div class="col-md-5">
+                <h2>Contact Us:</h2>
+                <h3>
+                    <a href="https://discord.gg/Dymvbyu9" target="_blank">
+                        <img class="img-fluid image-scaling" style="width: 35px; height: auto;" src="src/Discord.png">
+                    </a>
+                </h3>
+
+                <h3>
+                    <a href="https://www.youtube.com/@swills997" target="_blank">
+                        <img class="img-fluid image-scaling" style="width: 35px; height: auto;" src="src/Youtube.png">
+                    </a>
+                </h3>
+
+                <h3>
+                    <a href="mail.html" target="_blank">
+                        <img class="img-fluid image-scaling" style="width: 35px; height: auto;" src="src/Mail.png">
+                    </a>
+                </h3>
+                <h6>© 2022-2023 Swills. All rights reserved</h6>
+            </div>
+
+            <div class="col-md-5">
+                <h2>Navigation:</h2>
+                <h3 class="h9">
+                    <a href="index.html"><img class="img-fluid" style="width: 35px; height: auto;" src="src/HOME.png">Home</a>
+                </h3>
+
+                <h3 class="h9">
+                    <a href="packages.html"><img class="img-fluid" style="width: 35px; height: auto;" src="src/PACKAGES.png">Packages</a>
+                </h3>
+
+                <h3 class="h9">
+                    <a href="faq.html"><img class="img-fluid" style="width: 35px; height: auto;" src="src/FAQ.png">FAQ</a>
+                </h3>
+            </div>
+
+            <div class="col-md-2 text-center align-self-center">
+                <img class="img-fluid" src="src/SWILLS_LOGO_270x270.png">
+            </div>
+        </div>
+
+        <script>
+            var elementsToAnimate = document.querySelectorAll("h1, h2, h3, h4, h5, h6, h9");
+            elementsToAnimate.forEach(function(element)
+            {
+                var observer = new IntersectionObserver(function(entries)
+                {
+                    entries.forEach(entry =>
+                    {
+                        if (entry.isIntersecting)
+                        {
+                            element.classList.add("slide-up");
+                            observer.unobserve(element);
+                        }
+                    });
+                });
+                observer.observe(element);
+            });
+        </script>
+    </body>
+</html>

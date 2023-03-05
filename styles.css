@@ -354,34 +354,6 @@ img
     z-index: 9999;
 }
 
-.carousel-caption
-{
-    position: absolute;
-    top: 50%;
-    left: 80%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    height: 50%;
-}
-.carousel-caption2
-{
-    position: absolute;
-    top: 80%;
-    left: 95%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    height: 50%;
-}
-.carousel-caption3
-{
-    position: absolute;
-    top: 50%;
-    left: 85%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    height: 50%;
-}
-
 /* Text Animation */
 .slide-up
 {
